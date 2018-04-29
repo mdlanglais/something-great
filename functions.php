@@ -28,14 +28,14 @@ function remove_admin_login_header() {
 }
 
 $defaults = array(
-	'before'           => '<p>' . __('Pages:', 'something-great-theme'),
+	'before'           => '<p>' . __('Pages:', 'something-great'),
 	'after'            => '</p>',
 	'link_before'      => '',
 	'link_after'       => '',
 	'next_or_number'   => 'number',
 	'separator'        => ' ',
-	'nextpagelink'     => __('Next page', 'something-great-theme'),
-	'previouspagelink' => __('Previous page', 'something-great-theme'),
+	'nextpagelink'     => __('Next page', 'something-great'),
+	'previouspagelink' => __('Previous page', 'something-great'),
 	'pagelink'         => '%',
 	'echo'             => 1
 );
@@ -53,36 +53,36 @@ function theme_slug_widgets_init() {
 
 	if (function_exists('register_sidebar')) {
 		register_sidebar(array(
-			'name' => __('Sidebar', 'something-great-theme'),
+			'name' => __('Sidebar', 'something-great'),
 			'id'   => 'sidebar',
-			'description'   => __('This is a widgetized area displaying an optional sidebar.', 'something-great-theme'),
+			'description'   => __('This is a widgetized area displaying an optional sidebar.', 'something-great'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h4>',
 			'after_title'   => '</h4>'
 		));
 		register_sidebar(array(
-			'name' => __('Google Map', 'something-great-theme'),
+			'name' => __('Google Map', 'something-great'),
 			'id'   => 'map',
-			'description'   => __('This is a widgetized area displaying an optional google map.', 'something-great-theme'),
+			'description'   => __('This is a widgetized area displaying an optional google map.', 'something-great'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h4>',
 			'after_title'   => '</h4>'
 		));
 		register_sidebar(array(
-			'name' => __('Footer About Us', 'something-great-theme'),
+			'name' => __('Footer About Us', 'something-great'),
 			'id'   => 'footer-about',
-			'description'   => __('This is a widgetized area displaying an About Us content area in the footer.', 'something-great-theme'),
+			'description'   => __('This is a widgetized area displaying an About Us content area in the footer.', 'something-great'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h4>',
 			'after_title'   => '</h4>'
 		));
 		register_sidebar(array(
-			'name' => __('Footer Contact Us', 'something-great-theme'),
+			'name' => __('Footer Contact Us', 'something-great'),
 			'id'   => 'footer-contact',
-			'description'   => __('This is a widgetized area displaying a Contact Us area in the footer.', 'something-great-theme'),
+			'description'   => __('This is a widgetized area displaying a Contact Us area in the footer.', 'something-great'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h4>',

@@ -1,7 +1,7 @@
 /*
 	
-	Theme Name: Bootstrap 4 Theme
-	Theme URI: https://mdlanglais.com
+	Theme Name: Something Great
+	Theme URI: https://themes.mdlanglais.com
 	Description: Starter WordPress Theme with Bootstrap 4
 	Version: 1.4.0
 	Author: Michael Langlais
@@ -248,10 +248,41 @@ a img.aligncenter {
 	padding:0 4px 5px;
 }
 .sticky {
-
+	
 }
 .bypostauthor {
 
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
 }
 
 /*------------------------------------*\
