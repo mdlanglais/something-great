@@ -1,4 +1,4 @@
-# Project Title
+# Something Great
 
 This is the base theme template I start with when I start building a new custom theme for a Wordpress project. It's mobile-friendly and pretty design-agnostic/flexible so you're not pulled in one direction right off the bat design-wise. Supports search, posting and commenting, custom navigation menus, sidebar, widgets, and featured images. It's meant to be built on top of, it's by no means a finished product. Just a point of departure, hopefully a solid foundation on which to build a finished Wordpress theme. 
 
