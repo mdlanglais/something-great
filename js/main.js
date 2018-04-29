@@ -12,5 +12,5 @@ $(window).load(function() {
 $(document).ready(function() {
 	$('input').addClass('form-control');
 	$('textarea').addClass('form-control');
-	$('input[type="submit"]').removeClass('form-control').addClass('btn btn-primary');
+	$('input[type="submit"]').removeClass('form-control').addClass('btn btn-outline-info my-2 my-sm-0');
 });
