@@ -14,7 +14,7 @@
                 echo 'Home';
             } else {
                 echo bloginfo('name') . ' | '; 
-                wp_title();
+                wp_title('');
             }
         }
     ?>
