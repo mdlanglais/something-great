@@ -1,6 +1,6 @@
 # Something Great
 
-This is the base theme template I start with when I start building a new custom theme for a Wordpress project. It's mobile-friendly and pretty design-agnostic/flexible so you're not pulled in one direction right off the bat design-wise. Supports optional front page template, search, posting and commenting, custom navigation menus, sidebar, widgets, optional login logo, and featured images. It's meant to be built on top of, it's by no means a finished product. Just a point of departure, hopefully a solid foundation on which to build a finished Wordpress theme. 
+This is the base theme template I built that I use when starting a new custom Bootstrap 4 theme for a Wordpress project. It's mobile-friendly and pretty design-agnostic/flexible so you're not pulled in one direction right off the bat design-wise. Supports optional front page template, search, posting and commenting, custom navigation menus, sidebar, widgets, optional login logo, and featured images. It's meant to be built on top of, it's by no means a finished product. Just a point of departure, hopefully a solid foundation on which to build a finished Wordpress theme. 
 
 For the theme developer, it should be apparent where to substitute dynamic code for hard-coded placeholder images and copy. Bootstrap version is Bootstrap v4.0.0-beta.2, jQuery v1.11.1 (this is going to be updated soon)
 
