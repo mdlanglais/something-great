@@ -1,5 +1,5 @@
 /*
- * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -18,12 +18,12 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('http://dummyimage.com/1920x500/222222/eeeeee') no-repeat center center scroll;
+	background: url('https://dummyimage.com/1920x500/222222/eeeeee') no-repeat center center scroll;
     padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-	background: url('http://dummyimage.com/1920x500/222222/eeeeee') no-repeat center center scroll;
+	background: url('https://dummyimage.com/1920x500/222222/eeeeee') no-repeat center center scroll;
     height: 450px;
 }
 
