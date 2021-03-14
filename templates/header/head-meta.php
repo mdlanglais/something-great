@@ -20,7 +20,7 @@
     ?>
     </title>
     
-    <link rel="shortcut icon" href="/wp-content/themes/something-great/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php echo get_site_url(); ?>/wp-content/themes/something-great/favicon.png" type="image/x-icon" />
     <!-- include font files -->
     <!-- end including font files -->
 	
